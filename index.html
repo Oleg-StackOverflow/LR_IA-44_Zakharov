@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання з JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1>Завдання з JavaScript</h1>
+        <p>Студент групи ІА-44 Захаров Олег · номер у списку 6</p>
+    </header>
+
+    <main class="container">
+
+        <section class="lab">
+            <h2>Лабораторна робота №4</h2>
+            <p class="hint">Відкрийте консоль браузера і натисніть кнопку завдання. Результати виводяться в консоль і через <code>alert()</code>.</p>
+
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num">1</span>
+                    <span class="task__name">Чверть години (prompt, alert)</span>
+                    <button type="button" data-task="1">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">2</span>
+                    <span class="task__name">День тижня (switch-case)</span>
+                    <button type="button" data-task="2">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">3</span>
+                    <span class="task__name">Вхід User1, User2, User3</span>
+                    <button type="button" data-task="3">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">4</span>
+                    <span class="task__name">getShippingMessage</span>
+                    <button type="button" data-task="4">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">5</span>
+                    <span class="task__name">makeTransaction</span>
+                    <button type="button" data-task="5">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">6</span>
+                    <span class="task__name">makeArray</span>
+                    <button type="button" data-task="6">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">7</span>
+                    <span class="task__name">Масив: сума між max і min, швидке сортування (варіант 6)</span>
+                    <button type="button" data-task="7">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num">8</span>
+                    <span class="task__name">Двовимірний масив</span>
+                    <button type="button" data-task="8">Запустити</button>
+                </li>
+            </ul>
+
+            <!-- Завдання 9 -->
+            <div class="calendar-task">
+                <h3>Завдання 9. Календар (варіант 6)</h3>
+
+                <div class="date-field">
+                    <label for="date-input">Дата</label>
+                    <input type="text" id="date-input" placeholder="ДД.ММ.РРРР" readonly>
+
+                    <div class="calendar" id="calendar" hidden>
+                        <div class="calendar__header">
+                            <button type="button" data-action="prev-year" title="Попередній рік">&laquo;</button>
+                            <button type="button" data-action="prev-month" title="Попередній місяць">&lsaquo;</button>
+                            <span class="calendar__title"></span>
+                            <button type="button" data-action="next-month" title="Наступний місяць">&rsaquo;</button>
+                            <button type="button" data-action="next-year" title="Наступний рік">&raquo;</button>
+                        </div>
+
+                        <div class="calendar__weekdays">
+                            <span>Пн</span><span>Вт</span><span>Ср</span><span>Чт</span><span>Пт</span><span>Сб</span><span>Нд</span>
+                        </div>
+
+                        <div class="calendar__days"></div>
+
+                        <div class="calendar__footer">
+                            <button type="button" data-action="today">Сьогодні</button>
+                            <button type="button" data-action="clear">Скасувати</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="lab">
+            <h2>Лабораторна робота №5</h2>
+            <p class="hint">Варіант 6. Відкрийте консоль (F12 → Console) і натисніть кнопку завдання.</p>
+
+            <h3 class="group">1.1 Об'єкт</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.1.6</span>
+                    <span class="task__name">Завдання 6. Додавання властивостей об'єкта</span>
+                    <button type="button" data-lr5="1.1.6">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.1.8</span>
+                    <span class="task__name">Завдання 8. Динамічний доступ до властивостей</span>
+                    <button type="button" data-lr5="1.1.8">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.2 Методи об'єкта</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.2.2</span>
+                    <span class="task__name">Завдання 2. Object.values()</span>
+                    <button type="button" data-lr5="1.2.2">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.2.6</span>
+                    <span class="task__name">Завдання 6. Object.hasOwn()</span>
+                    <button type="button" data-lr5="1.2.6">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.3 Масив об'єктів</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.3.6</span>
+                    <span class="task__name">Завдання 6. Оновлення оцінки студента</span>
+                    <button type="button" data-lr5="1.3.6">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.3.9</span>
+                    <span class="task__name">Завдання 9. Найдорожчий товар</span>
+                    <button type="button" data-lr5="1.3.9">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.4 Деструктуризація</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.4.3</span>
+                    <span class="task__name">Завдання 3. Значення за замовчуванням</span>
+                    <button type="button" data-lr5="1.4.3">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.4.6</span>
+                    <span class="task__name">Завдання 6. Деструктуризація об'єктів у масиві</span>
+                    <button type="button" data-lr5="1.4.6">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.4.9</span>
+                    <span class="task__name">Завдання 9. Вкладені властивості з перейменуванням</span>
+                    <button type="button" data-lr5="1.4.9">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.5 Callback-функції</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.5.6</span>
+                    <span class="task__name">Завдання 6. getUser() із затримкою 2 с</span>
+                    <button type="button" data-lr5="1.5.6">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.5.10</span>
+                    <span class="task__name">Завдання 10. registerUser() з двома callback</span>
+                    <button type="button" data-lr5="1.5.10">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.6 Стрілочні функції</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.6.1</span>
+                    <span class="task__name">Завдання 1. greeting(): звичайна і стрілочна</span>
+                    <button type="button" data-lr5="1.6.1">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.6.6</span>
+                    <span class="task__name">Завдання 6. showDate()</span>
+                    <button type="button" data-lr5="1.6.6">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.7 Стрілочні функції як колбеки</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.7.3</span>
+                    <span class="task__name">Завдання 3. formatText()</span>
+                    <button type="button" data-lr5="1.7.3">Запустити</button>
+                </li>
+                <li class="task task--demo">
+                    <span class="task__num task__num--wide">1.7.6</span>
+                    <div class="task__name">
+                        Завдання 6. Значення з поля введення
+                        <div class="demo">
+                            <input type="text" id="lr5-input" placeholder="Почніть вводити текст">
+                            <button type="button" id="lr5-button">Очистити</button>
+                        </div>
+                        <p class="demo__output" id="lr5-output">Поточне значення:</p>
+                    </div>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.7.9</span>
+                    <span class="task__name">Завдання 9. Promise, then(), catch()</span>
+                    <button type="button" data-lr5="1.7.9">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">1.8 Перебираючі методи масиву</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">1.8.3</span>
+                    <span class="task__name">Завдання 3. filter()</span>
+                    <button type="button" data-lr5="1.8.3">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.8.6</span>
+                    <span class="task__name">Завдання 6. some()</span>
+                    <button type="button" data-lr5="1.8.6">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">1.8.9</span>
+                    <span class="task__name">Завдання 9. flatMap()</span>
+                    <button type="button" data-lr5="1.8.9">Запустити</button>
+                </li>
+            </ul>
+
+            <h3 class="group">Практичне завдання №2</h3>
+            <ul class="tasks">
+                <li class="task">
+                    <span class="task__num task__num--wide">2.1</span>
+                    <span class="task__name">Завдання 1–2. Об'єкт book і метод getInfo()</span>
+                    <button type="button" data-lr5="2.1">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">2.3</span>
+                    <span class="task__name">Завдання 3–4. Масив студентів, деструктуризація</span>
+                    <button type="button" data-lr5="2.3">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">2.5</span>
+                    <span class="task__name">Завдання 5–6. Callback і стрілочна функція</span>
+                    <button type="button" data-lr5="2.5">Запустити</button>
+                </li>
+                <li class="task">
+                    <span class="task__num task__num--wide">2.7</span>
+                    <span class="task__name">Завдання 7–12. forEach, map, filter, find, some, every</span>
+                    <button type="button" data-lr5="2.7">Запустити</button>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="js/lesson-4.js"></script>
+    <script src="js/lesson-5.js"></script>
+</body>
+</html>
